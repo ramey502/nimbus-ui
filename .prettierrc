@@ -1,0 +1,25 @@
+{
+    "printWidth": 100,
+    "singleQuote": true,
+    "trailingComma": "all",
+    "overrides": [
+        {
+            "files": ["docs/**/*.md"],
+            "options": {
+                "printWidth": 85
+            }
+        },
+        {
+            "files": ["docs/**/*.md"],
+            "options": {
+                "printWidth": 82
+            }
+        },
+        {
+            "files": ["**/*.json"],
+            "options": {
+                "trailingComma": "none"
+            }
+        }
+    ]
+}
